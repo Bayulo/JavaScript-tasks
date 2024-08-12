@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>square root cal</title>
+
+</head>
+<body>
+    <fieldset>
+        <legend>Square root Calculator</legend>
+        <label for="testNum">Enter number: </label>
+        <input type="number" name="num" id="testNum" placeholder="Enter a number">
+        <button type="button" onclick="sqrtfunction()">Submit</button><br>
+        Answer = <span  id="ans"></span>
+    </fieldset>
+    <script>
+        function sqrtfunction(){
+            var nums = document.getElementById("testNum").value;
+            root = Math.sqrt(nums);
+            var ansContent= document.getElementById("ans");
+            ansContent.textContent=root;
+        }
+    </script>
+</body>
+</html>

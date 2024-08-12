@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parity check</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Even/Odd number check</legend>
+        <label for="numEnter">Enter the number: </label>
+        <input name="num" type="number" id="numEnter">
+        <button type="button" onclick="checkParity()">Check</button><br>
+        Parity: <span id="par"></span>
+    </fieldset>
+    <script>
+        function checkParity(){
+            num=document.getElementById("numEnter").value;
+            parit=document.getElementById("par");
+            if(num%2===0){
+                parit.textContent="Even";
+            }
+            else{
+                parit.textContent="Odd";
+            }
+        }
+    </script>
+</body>
+</html>
