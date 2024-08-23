@@ -4,8 +4,8 @@
 
 <p>Code</p>
 
-![Code](screenshots\input.png)
+![Code](screenshots/input.png)
 
 <p>Output 2</p>
 
-![Output2](screenshots\output.png)
+![Output2](screenshots/output.png)
