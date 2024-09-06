@@ -2,6 +2,6 @@
 
 ## output
 
-![input](/Page_nu_exerecise_4_5/screenshots/input.png)
+![input](screenshots/input.png)
 
-![output](/Page_nu_exerecise_4_5/screenshots/output.png)
+![output](screenshots/output.png)
