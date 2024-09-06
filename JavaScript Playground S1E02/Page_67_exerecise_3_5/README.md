@@ -2,4 +2,4 @@
 
 ## output
 
-![](screenshotsoutput.png)
+![](screenshots/output.png)
