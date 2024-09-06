@@ -1,7 +1,7 @@
 # Evaluating a number screenshots
 
 ## code
-![code](Screenshots/code.png)
+![code](screenshots/code.png)
 ## input
 ![Input](screenshots/input.png)
 ## output
